@@ -50,7 +50,7 @@ addon:RegisterOptionCallback("showParty", function(value)
 	for i = 1, 4 do
 		local frame = _G["PartyMemberFrame"..i]
 		if value then
-			frame:SetParent(blizzPartyParent)
+			-- frame:SetParent(blizzPartyParent)
 		else
 			frame:SetParent(UIParent)
 		end

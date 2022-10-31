@@ -5,8 +5,8 @@
 -- 2012/1/14
 ------------------------------------------------------------
 local C_PartyInfo = {}
-local ConvertToParty = C_PartyInfo.ConvertToParty
-local ConvertToRaid = C_PartyInfo.ConvertToRaid
+local ConvertToParty = UnitPopupConvertToPartyButtonMixin.OnClick
+local ConvertToRaid = UnitPopupConvertToRaidButtonMixin.OnClick
 local SetEveryoneIsAssistant = SetEveryoneIsAssistant
 local IsEveryoneAssistant = IsEveryoneAssistant
 local RegisterStateDriver = RegisterStateDriver
